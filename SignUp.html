@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+<title>SIGN-UP</title>
+<link rel="stylesheet" href="Index1.css">
+</head>
+<body>
+<div class="wrapper">
+<div class="reg_form">
+<div class="title">REGISTRATION-FORM</div>
+<form action="SaveServlet" method="post">
+<div class="form_wrap">
+<div class="input_grp">
+<div class="input_wrap">
+<label for="fname">NAME</label><input type="text" name="name">
+</div>
+<div class="input_wrap">
+<label for="Lname">USER NAME</label><input type="text" name="uname">
+</div>
+</div>
+<div class="input_wrap">
+<label for="email">EMAIL-ADDRESS</label><input type="text" name="email">
+</div>
+<div class="input_wrap">
+<label>GENDER:</label>
+<ul>
+<li><label class="radio_wrap"><input type="radio" name="sex" value="MALE" class="input_radio"><span>MALE</span>
+</label></li>
+<li><label class="radio_wrap"><input type="radio" name="sex" value="FEMALE" class="input_radio"><span>FEMALE</span>
+</label></li></ul>
+</div>
+<div class="input_wrap">
+<label for="city">CITY</label><input type="text" name="city">
+</div>
+<div class="input_wrap">
+<label for="country">COUNTRY</label><input type="text" name="country">
+</div>
+<div class="input_wrap">
+<label for="password">PASSWORD</label><input type="password" name="pw">
+					</div>
+					<div class="input_wrap">
+					<input type="submit" value="Save Servlet" class="submit_btn">
+					</div>
+					</div>
+</form>
+</div>
+</div>
+</body>
+</html>
